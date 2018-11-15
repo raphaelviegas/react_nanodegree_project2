@@ -1,0 +1,1471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostPage /> postInfo has a value Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostPage
+    fetchPosts={[Function]}
+    fetchRemovePost={[Function]}
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    id="8xf0y6ziyjabvozdd253nd"
+    postInfo={
+        Array [
+            Object {
+              "author": "thingtwo",
+              "body": "Everyone says so after all.",
+              "category": "react",
+              "commentCount": 2,
+              "deleted": false,
+              "id": "8xf0y6ziyjabvozdd253nd",
+              "timestamp": 1467166872634,
+              "title": "Udacity is the best place to learn React",
+              "voteScore": 10,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="post-page"
+>
+        <div>
+                <div
+                        className="post-buttons"
+                >
+                        <div
+                                className="post-button-edit"
+                                onClick={[Function]}
+                        >
+                                <MaterialIcon
+                                        icon="edit"
+                                        size={20}
+                                />
+                        </div>
+                        <div
+                                className="post-button-remove"
+                                onClick={[Function]}
+                        >
+                                <MaterialIcon
+                                        icon="delete"
+                                        size={20}
+                                />
+                        </div>
+                </div>
+                <div
+                        className="container"
+                >
+                        <h4
+                                className="post-title"
+                        >
+                                Udacity is the best place to learn React
+                        </h4>
+                        <div
+                                className="post-infos"
+                        >
+                                <span
+                                        className="post-author"
+                                >
+                                        Author: 
+                                        thingtwo
+                                </span>
+                                <span
+                                        className="post-category"
+                                >
+                                        Category: 
+                                        react
+                                </span>
+                                <span
+                                        className="post-date"
+                                >
+                                        <MaterialIcon
+                                                icon="calendar_today"
+                                                size={16}
+                                        />
+                                        <t
+                                                ago={false}
+                                                calendar={false}
+                                                decimal={false}
+                                                element="time"
+                                                filter={[Function]}
+                                                format="DD/MMM/YY"
+                                                fromNow={false}
+                                                interval={60000}
+                                                onChange={[Function]}
+                                                toNow={false}
+                                                unit={null}
+                                                unix={false}
+                                                utc={false}
+                                        >
+                                                1467166872634
+                                        </t>
+                                </span>
+                        </div>
+                        <Connect(VoteScore)
+                                id="8xf0y6ziyjabvozdd253nd"
+                                score={10}
+                                size={18}
+                                type="post"
+                        />
+                        <p
+                                className="post-body"
+                        >
+                                Everyone says so after all.
+                        </p>
+                        <withRouter(Connect(Comments))
+                                parentId="8xf0y6ziyjabvozdd253nd"
+                        />
+                </div>
+                <EditPostModal
+                        body="Everyone says so after all."
+                        id="8xf0y6ziyjabvozdd253nd"
+                        modalOpen=""
+                        onCloseModal={[Function]}
+                        title="Udacity is the best place to learn React"
+                />
+        </div>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+                        className="post-buttons"
+            >
+                        <div
+                                    className="post-button-edit"
+                                    onClick={[Function]}
+                        >
+                                    <MaterialIcon
+                                                icon="edit"
+                                                size={20}
+                                    />
+                        </div>
+                        <div
+                                    className="post-button-remove"
+                                    onClick={[Function]}
+                        >
+                                    <MaterialIcon
+                                                icon="delete"
+                                                size={20}
+                                    />
+                        </div>
+            </div>
+            <div
+                        className="container"
+            >
+                        <h4
+                                    className="post-title"
+                        >
+                                    Udacity is the best place to learn React
+                        </h4>
+                        <div
+                                    className="post-infos"
+                        >
+                                    <span
+                                                className="post-author"
+                                    >
+                                                Author: 
+                                                thingtwo
+                                    </span>
+                                    <span
+                                                className="post-category"
+                                    >
+                                                Category: 
+                                                react
+                                    </span>
+                                    <span
+                                                className="post-date"
+                                    >
+                                                <MaterialIcon
+                                                            icon="calendar_today"
+                                                            size={16}
+                                                />
+                                                <t
+                                                            ago={false}
+                                                            calendar={false}
+                                                            decimal={false}
+                                                            element="time"
+                                                            filter={[Function]}
+                                                            format="DD/MMM/YY"
+                                                            fromNow={false}
+                                                            interval={60000}
+                                                            onChange={[Function]}
+                                                            toNow={false}
+                                                            unit={null}
+                                                            unix={false}
+                                                            utc={false}
+                                                >
+                                                            1467166872634
+                                                </t>
+                                    </span>
+                        </div>
+                        <Connect(VoteScore)
+                                    id="8xf0y6ziyjabvozdd253nd"
+                                    score={10}
+                                    size={18}
+                                    type="post"
+                        />
+                        <p
+                                    className="post-body"
+                        >
+                                    Everyone says so after all.
+                        </p>
+                        <withRouter(Connect(Comments))
+                                    parentId="8xf0y6ziyjabvozdd253nd"
+                        />
+            </div>
+            <EditPostModal
+                        body="Everyone says so after all."
+                        id="8xf0y6ziyjabvozdd253nd"
+                        modalOpen=""
+                        onCloseModal={[Function]}
+                        title="Udacity is the best place to learn React"
+            />
+</div>,
+        ],
+        "className": "post-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "8xf0y6ziyjabvozdd253nd",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="post-buttons"
+>
+                <div
+                                className="post-button-edit"
+                                onClick={[Function]}
+                >
+                                <MaterialIcon
+                                                icon="edit"
+                                                size={20}
+                                />
+                </div>
+                <div
+                                className="post-button-remove"
+                                onClick={[Function]}
+                >
+                                <MaterialIcon
+                                                icon="delete"
+                                                size={20}
+                                />
+                </div>
+</div>,
+              <div
+                className="container"
+>
+                <h4
+                                className="post-title"
+                >
+                                Udacity is the best place to learn React
+                </h4>
+                <div
+                                className="post-infos"
+                >
+                                <span
+                                                className="post-author"
+                                >
+                                                Author: 
+                                                thingtwo
+                                </span>
+                                <span
+                                                className="post-category"
+                                >
+                                                Category: 
+                                                react
+                                </span>
+                                <span
+                                                className="post-date"
+                                >
+                                                <MaterialIcon
+                                                                icon="calendar_today"
+                                                                size={16}
+                                                />
+                                                <t
+                                                                ago={false}
+                                                                calendar={false}
+                                                                decimal={false}
+                                                                element="time"
+                                                                filter={[Function]}
+                                                                format="DD/MMM/YY"
+                                                                fromNow={false}
+                                                                interval={60000}
+                                                                onChange={[Function]}
+                                                                toNow={false}
+                                                                unit={null}
+                                                                unix={false}
+                                                                utc={false}
+                                                >
+                                                                1467166872634
+                                                </t>
+                                </span>
+                </div>
+                <Connect(VoteScore)
+                                id="8xf0y6ziyjabvozdd253nd"
+                                score={10}
+                                size={18}
+                                type="post"
+                />
+                <p
+                                className="post-body"
+                >
+                                Everyone says so after all.
+                </p>
+                <withRouter(Connect(Comments))
+                                parentId="8xf0y6ziyjabvozdd253nd"
+                />
+</div>,
+              <EditPostModal
+                body="Everyone says so after all."
+                id="8xf0y6ziyjabvozdd253nd"
+                modalOpen=""
+                onCloseModal={[Function]}
+                title="Udacity is the best place to learn React"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="post-button-edit"
+                    onClick={[Function]}
+>
+                    <MaterialIcon
+                                        icon="edit"
+                                        size={20}
+                    />
+</div>,
+                  <div
+                    className="post-button-remove"
+                    onClick={[Function]}
+>
+                    <MaterialIcon
+                                        icon="delete"
+                                        size={20}
+                    />
+</div>,
+                ],
+                "className": "post-buttons",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <MaterialIcon
+                      icon="edit"
+                      size={20}
+/>,
+                    "className": "post-button-edit",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": "edit",
+                      "size": 20,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <MaterialIcon
+                      icon="delete"
+                      size={20}
+/>,
+                    "className": "post-button-remove",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": "delete",
+                      "size": 20,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="post-title"
+>
+                    Udacity is the best place to learn React
+</h4>,
+                  <div
+                    className="post-infos"
+>
+                    <span
+                                        className="post-author"
+                    >
+                                        Author: 
+                                        thingtwo
+                    </span>
+                    <span
+                                        className="post-category"
+                    >
+                                        Category: 
+                                        react
+                    </span>
+                    <span
+                                        className="post-date"
+                    >
+                                        <MaterialIcon
+                                                            icon="calendar_today"
+                                                            size={16}
+                                        />
+                                        <t
+                                                            ago={false}
+                                                            calendar={false}
+                                                            decimal={false}
+                                                            element="time"
+                                                            filter={[Function]}
+                                                            format="DD/MMM/YY"
+                                                            fromNow={false}
+                                                            interval={60000}
+                                                            onChange={[Function]}
+                                                            toNow={false}
+                                                            unit={null}
+                                                            unix={false}
+                                                            utc={false}
+                                        >
+                                                            1467166872634
+                                        </t>
+                    </span>
+</div>,
+                  <Connect(VoteScore)
+                    id="8xf0y6ziyjabvozdd253nd"
+                    score={10}
+                    size={18}
+                    type="post"
+/>,
+                  <p
+                    className="post-body"
+>
+                    Everyone says so after all.
+</p>,
+                  <withRouter(Connect(Comments))
+                    parentId="8xf0y6ziyjabvozdd253nd"
+/>,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Udacity is the best place to learn React",
+                    "className": "post-title",
+                  },
+                  "ref": null,
+                  "rendered": "Udacity is the best place to learn React",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="post-author"
+>
+                        Author: 
+                        thingtwo
+</span>,
+                      <span
+                        className="post-category"
+>
+                        Category: 
+                        react
+</span>,
+                      <span
+                        className="post-date"
+>
+                        <MaterialIcon
+                                                icon="calendar_today"
+                                                size={16}
+                        />
+                        <t
+                                                ago={false}
+                                                calendar={false}
+                                                decimal={false}
+                                                element="time"
+                                                filter={[Function]}
+                                                format="DD/MMM/YY"
+                                                fromNow={false}
+                                                interval={60000}
+                                                onChange={[Function]}
+                                                toNow={false}
+                                                unit={null}
+                                                unix={false}
+                                                utc={false}
+                        >
+                                                1467166872634
+                        </t>
+</span>,
+                    ],
+                    "className": "post-infos",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Author: ",
+                          "thingtwo",
+                        ],
+                        "className": "post-author",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Author: ",
+                        "thingtwo",
+                      ],
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Category: ",
+                          "react",
+                        ],
+                        "className": "post-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Category: ",
+                        "react",
+                      ],
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <MaterialIcon
+                            icon="calendar_today"
+                            size={16}
+/>,
+                          <t
+                            ago={false}
+                            calendar={false}
+                            decimal={false}
+                            element="time"
+                            filter={[Function]}
+                            format="DD/MMM/YY"
+                            fromNow={false}
+                            interval={60000}
+                            onChange={[Function]}
+                            toNow={false}
+                            unit={null}
+                            unix={false}
+                            utc={false}
+>
+                            1467166872634
+</t>,
+                        ],
+                        "className": "post-date",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "icon": "calendar_today",
+                            "size": 16,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "ago": false,
+                            "calendar": false,
+                            "children": 1467166872634,
+                            "decimal": false,
+                            "element": "time",
+                            "filter": [Function],
+                            "format": "DD/MMM/YY",
+                            "fromNow": false,
+                            "interval": 60000,
+                            "onChange": [Function],
+                            "toNow": false,
+                            "unit": null,
+                            "unix": false,
+                            "utc": false,
+                          },
+                          "ref": null,
+                          "rendered": 1467166872634,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "8xf0y6ziyjabvozdd253nd",
+                    "score": 10,
+                    "size": 18,
+                    "type": "post",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Everyone says so after all.",
+                    "className": "post-body",
+                  },
+                  "ref": null,
+                  "rendered": "Everyone says so after all.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "parentId": "8xf0y6ziyjabvozdd253nd",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "body": "Everyone says so after all.",
+                "id": "8xf0y6ziyjabvozdd253nd",
+                "modalOpen": "",
+                "onCloseModal": [Function],
+                "title": "Udacity is the best place to learn React",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="post-page"
+>
+          <div>
+                    <div
+                              className="post-buttons"
+                    >
+                              <div
+                                        className="post-button-edit"
+                                        onClick={[Function]}
+                              >
+                                        <MaterialIcon
+                                                  icon="edit"
+                                                  size={20}
+                                        />
+                              </div>
+                              <div
+                                        className="post-button-remove"
+                                        onClick={[Function]}
+                              >
+                                        <MaterialIcon
+                                                  icon="delete"
+                                                  size={20}
+                                        />
+                              </div>
+                    </div>
+                    <div
+                              className="container"
+                    >
+                              <h4
+                                        className="post-title"
+                              >
+                                        Udacity is the best place to learn React
+                              </h4>
+                              <div
+                                        className="post-infos"
+                              >
+                                        <span
+                                                  className="post-author"
+                                        >
+                                                  Author: 
+                                                  thingtwo
+                                        </span>
+                                        <span
+                                                  className="post-category"
+                                        >
+                                                  Category: 
+                                                  react
+                                        </span>
+                                        <span
+                                                  className="post-date"
+                                        >
+                                                  <MaterialIcon
+                                                            icon="calendar_today"
+                                                            size={16}
+                                                  />
+                                                  <t
+                                                            ago={false}
+                                                            calendar={false}
+                                                            decimal={false}
+                                                            element="time"
+                                                            filter={[Function]}
+                                                            format="DD/MMM/YY"
+                                                            fromNow={false}
+                                                            interval={60000}
+                                                            onChange={[Function]}
+                                                            toNow={false}
+                                                            unit={null}
+                                                            unix={false}
+                                                            utc={false}
+                                                  >
+                                                            1467166872634
+                                                  </t>
+                                        </span>
+                              </div>
+                              <Connect(VoteScore)
+                                        id="8xf0y6ziyjabvozdd253nd"
+                                        score={10}
+                                        size={18}
+                                        type="post"
+                              />
+                              <p
+                                        className="post-body"
+                              >
+                                        Everyone says so after all.
+                              </p>
+                              <withRouter(Connect(Comments))
+                                        parentId="8xf0y6ziyjabvozdd253nd"
+                              />
+                    </div>
+                    <EditPostModal
+                              body="Everyone says so after all."
+                              id="8xf0y6ziyjabvozdd253nd"
+                              modalOpen=""
+                              onCloseModal={[Function]}
+                              title="Udacity is the best place to learn React"
+                    />
+          </div>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <div
+                            className="post-buttons"
+              >
+                            <div
+                                          className="post-button-edit"
+                                          onClick={[Function]}
+                            >
+                                          <MaterialIcon
+                                                        icon="edit"
+                                                        size={20}
+                                          />
+                            </div>
+                            <div
+                                          className="post-button-remove"
+                                          onClick={[Function]}
+                            >
+                                          <MaterialIcon
+                                                        icon="delete"
+                                                        size={20}
+                                          />
+                            </div>
+              </div>
+              <div
+                            className="container"
+              >
+                            <h4
+                                          className="post-title"
+                            >
+                                          Udacity is the best place to learn React
+                            </h4>
+                            <div
+                                          className="post-infos"
+                            >
+                                          <span
+                                                        className="post-author"
+                                          >
+                                                        Author: 
+                                                        thingtwo
+                                          </span>
+                                          <span
+                                                        className="post-category"
+                                          >
+                                                        Category: 
+                                                        react
+                                          </span>
+                                          <span
+                                                        className="post-date"
+                                          >
+                                                        <MaterialIcon
+                                                                      icon="calendar_today"
+                                                                      size={16}
+                                                        />
+                                                        <t
+                                                                      ago={false}
+                                                                      calendar={false}
+                                                                      decimal={false}
+                                                                      element="time"
+                                                                      filter={[Function]}
+                                                                      format="DD/MMM/YY"
+                                                                      fromNow={false}
+                                                                      interval={60000}
+                                                                      onChange={[Function]}
+                                                                      toNow={false}
+                                                                      unit={null}
+                                                                      unix={false}
+                                                                      utc={false}
+                                                        >
+                                                                      1467166872634
+                                                        </t>
+                                          </span>
+                            </div>
+                            <Connect(VoteScore)
+                                          id="8xf0y6ziyjabvozdd253nd"
+                                          score={10}
+                                          size={18}
+                                          type="post"
+                            />
+                            <p
+                                          className="post-body"
+                            >
+                                          Everyone says so after all.
+                            </p>
+                            <withRouter(Connect(Comments))
+                                          parentId="8xf0y6ziyjabvozdd253nd"
+                            />
+              </div>
+              <EditPostModal
+                            body="Everyone says so after all."
+                            id="8xf0y6ziyjabvozdd253nd"
+                            modalOpen=""
+                            onCloseModal={[Function]}
+                            title="Udacity is the best place to learn React"
+              />
+</div>,
+          ],
+          "className": "post-page",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "8xf0y6ziyjabvozdd253nd",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="post-buttons"
+>
+                  <div
+                                    className="post-button-edit"
+                                    onClick={[Function]}
+                  >
+                                    <MaterialIcon
+                                                      icon="edit"
+                                                      size={20}
+                                    />
+                  </div>
+                  <div
+                                    className="post-button-remove"
+                                    onClick={[Function]}
+                  >
+                                    <MaterialIcon
+                                                      icon="delete"
+                                                      size={20}
+                                    />
+                  </div>
+</div>,
+                <div
+                  className="container"
+>
+                  <h4
+                                    className="post-title"
+                  >
+                                    Udacity is the best place to learn React
+                  </h4>
+                  <div
+                                    className="post-infos"
+                  >
+                                    <span
+                                                      className="post-author"
+                                    >
+                                                      Author: 
+                                                      thingtwo
+                                    </span>
+                                    <span
+                                                      className="post-category"
+                                    >
+                                                      Category: 
+                                                      react
+                                    </span>
+                                    <span
+                                                      className="post-date"
+                                    >
+                                                      <MaterialIcon
+                                                                        icon="calendar_today"
+                                                                        size={16}
+                                                      />
+                                                      <t
+                                                                        ago={false}
+                                                                        calendar={false}
+                                                                        decimal={false}
+                                                                        element="time"
+                                                                        filter={[Function]}
+                                                                        format="DD/MMM/YY"
+                                                                        fromNow={false}
+                                                                        interval={60000}
+                                                                        onChange={[Function]}
+                                                                        toNow={false}
+                                                                        unit={null}
+                                                                        unix={false}
+                                                                        utc={false}
+                                                      >
+                                                                        1467166872634
+                                                      </t>
+                                    </span>
+                  </div>
+                  <Connect(VoteScore)
+                                    id="8xf0y6ziyjabvozdd253nd"
+                                    score={10}
+                                    size={18}
+                                    type="post"
+                  />
+                  <p
+                                    className="post-body"
+                  >
+                                    Everyone says so after all.
+                  </p>
+                  <withRouter(Connect(Comments))
+                                    parentId="8xf0y6ziyjabvozdd253nd"
+                  />
+</div>,
+                <EditPostModal
+                  body="Everyone says so after all."
+                  id="8xf0y6ziyjabvozdd253nd"
+                  modalOpen=""
+                  onCloseModal={[Function]}
+                  title="Udacity is the best place to learn React"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="post-button-edit"
+                      onClick={[Function]}
+>
+                      <MaterialIcon
+                                            icon="edit"
+                                            size={20}
+                      />
+</div>,
+                    <div
+                      className="post-button-remove"
+                      onClick={[Function]}
+>
+                      <MaterialIcon
+                                            icon="delete"
+                                            size={20}
+                      />
+</div>,
+                  ],
+                  "className": "post-buttons",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <MaterialIcon
+                        icon="edit"
+                        size={20}
+/>,
+                      "className": "post-button-edit",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "icon": "edit",
+                        "size": 20,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <MaterialIcon
+                        icon="delete"
+                        size={20}
+/>,
+                      "className": "post-button-remove",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "icon": "delete",
+                        "size": 20,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="post-title"
+>
+                      Udacity is the best place to learn React
+</h4>,
+                    <div
+                      className="post-infos"
+>
+                      <span
+                                            className="post-author"
+                      >
+                                            Author: 
+                                            thingtwo
+                      </span>
+                      <span
+                                            className="post-category"
+                      >
+                                            Category: 
+                                            react
+                      </span>
+                      <span
+                                            className="post-date"
+                      >
+                                            <MaterialIcon
+                                                                  icon="calendar_today"
+                                                                  size={16}
+                                            />
+                                            <t
+                                                                  ago={false}
+                                                                  calendar={false}
+                                                                  decimal={false}
+                                                                  element="time"
+                                                                  filter={[Function]}
+                                                                  format="DD/MMM/YY"
+                                                                  fromNow={false}
+                                                                  interval={60000}
+                                                                  onChange={[Function]}
+                                                                  toNow={false}
+                                                                  unit={null}
+                                                                  unix={false}
+                                                                  utc={false}
+                                            >
+                                                                  1467166872634
+                                            </t>
+                      </span>
+</div>,
+                    <Connect(VoteScore)
+                      id="8xf0y6ziyjabvozdd253nd"
+                      score={10}
+                      size={18}
+                      type="post"
+/>,
+                    <p
+                      className="post-body"
+>
+                      Everyone says so after all.
+</p>,
+                    <withRouter(Connect(Comments))
+                      parentId="8xf0y6ziyjabvozdd253nd"
+/>,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Udacity is the best place to learn React",
+                      "className": "post-title",
+                    },
+                    "ref": null,
+                    "rendered": "Udacity is the best place to learn React",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="post-author"
+>
+                          Author: 
+                          thingtwo
+</span>,
+                        <span
+                          className="post-category"
+>
+                          Category: 
+                          react
+</span>,
+                        <span
+                          className="post-date"
+>
+                          <MaterialIcon
+                                                    icon="calendar_today"
+                                                    size={16}
+                          />
+                          <t
+                                                    ago={false}
+                                                    calendar={false}
+                                                    decimal={false}
+                                                    element="time"
+                                                    filter={[Function]}
+                                                    format="DD/MMM/YY"
+                                                    fromNow={false}
+                                                    interval={60000}
+                                                    onChange={[Function]}
+                                                    toNow={false}
+                                                    unit={null}
+                                                    unix={false}
+                                                    utc={false}
+                          >
+                                                    1467166872634
+                          </t>
+</span>,
+                      ],
+                      "className": "post-infos",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Author: ",
+                            "thingtwo",
+                          ],
+                          "className": "post-author",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Author: ",
+                          "thingtwo",
+                        ],
+                        "type": "span",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Category: ",
+                            "react",
+                          ],
+                          "className": "post-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Category: ",
+                          "react",
+                        ],
+                        "type": "span",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <MaterialIcon
+                              icon="calendar_today"
+                              size={16}
+/>,
+                            <t
+                              ago={false}
+                              calendar={false}
+                              decimal={false}
+                              element="time"
+                              filter={[Function]}
+                              format="DD/MMM/YY"
+                              fromNow={false}
+                              interval={60000}
+                              onChange={[Function]}
+                              toNow={false}
+                              unit={null}
+                              unix={false}
+                              utc={false}
+>
+                              1467166872634
+</t>,
+                          ],
+                          "className": "post-date",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "icon": "calendar_today",
+                              "size": 16,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "ago": false,
+                              "calendar": false,
+                              "children": 1467166872634,
+                              "decimal": false,
+                              "element": "time",
+                              "filter": [Function],
+                              "format": "DD/MMM/YY",
+                              "fromNow": false,
+                              "interval": 60000,
+                              "onChange": [Function],
+                              "toNow": false,
+                              "unit": null,
+                              "unix": false,
+                              "utc": false,
+                            },
+                            "ref": null,
+                            "rendered": 1467166872634,
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "id": "8xf0y6ziyjabvozdd253nd",
+                      "score": 10,
+                      "size": 18,
+                      "type": "post",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Everyone says so after all.",
+                      "className": "post-body",
+                    },
+                    "ref": null,
+                    "rendered": "Everyone says so after all.",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "parentId": "8xf0y6ziyjabvozdd253nd",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "Everyone says so after all.",
+                  "id": "8xf0y6ziyjabvozdd253nd",
+                  "modalOpen": "",
+                  "onCloseModal": [Function],
+                  "title": "Udacity is the best place to learn React",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

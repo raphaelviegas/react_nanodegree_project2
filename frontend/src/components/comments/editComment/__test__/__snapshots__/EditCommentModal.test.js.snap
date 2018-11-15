@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditCommentModal /> Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditCommentModal
+    commentBody="Edited comment body"
+    commentId="894tuq4ut84ut8v4t8wun89g"
+    modalOpen="modal-open"
+    onCloseModal={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="modal-overlay modal-open"
+          onClick={[Function]}
+/>,
+        <div
+          className="modal edit-post-modal modal-open"
+>
+          <withRouter(Connect(EditCommentForm))
+                    closeModal={[Function]}
+                    commentBody="Edited comment body"
+                    commentId="894tuq4ut84ut8v4t8wun89g"
+          />
+          <div
+                    className="close-modal"
+                    onClick={[Function]}
+          >
+                    <MaterialIcon
+                              icon="close"
+                    />
+          </div>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modal-overlay modal-open",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <withRouter(Connect(EditCommentForm))
+              closeModal={[Function]}
+              commentBody="Edited comment body"
+              commentId="894tuq4ut84ut8v4t8wun89g"
+/>,
+            <div
+              className="close-modal"
+              onClick={[Function]}
+>
+              <MaterialIcon
+                            icon="close"
+              />
+</div>,
+          ],
+          "className": "modal edit-post-modal modal-open",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "closeModal": [Function],
+              "commentBody": "Edited comment body",
+              "commentId": "894tuq4ut84ut8v4t8wun89g",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <MaterialIcon
+                icon="close"
+/>,
+              "className": "close-modal",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": "close",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="modal-overlay modal-open"
+            onClick={[Function]}
+/>,
+          <div
+            className="modal edit-post-modal modal-open"
+>
+            <withRouter(Connect(EditCommentForm))
+                        closeModal={[Function]}
+                        commentBody="Edited comment body"
+                        commentId="894tuq4ut84ut8v4t8wun89g"
+            />
+            <div
+                        className="close-modal"
+                        onClick={[Function]}
+            >
+                        <MaterialIcon
+                                    icon="close"
+                        />
+            </div>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modal-overlay modal-open",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <withRouter(Connect(EditCommentForm))
+                closeModal={[Function]}
+                commentBody="Edited comment body"
+                commentId="894tuq4ut84ut8v4t8wun89g"
+/>,
+              <div
+                className="close-modal"
+                onClick={[Function]}
+>
+                <MaterialIcon
+                                icon="close"
+                />
+</div>,
+            ],
+            "className": "modal edit-post-modal modal-open",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "closeModal": [Function],
+                "commentBody": "Edited comment body",
+                "commentId": "894tuq4ut84ut8v4t8wun89g",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MaterialIcon
+                  icon="close"
+/>,
+                "className": "close-modal",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": "close",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

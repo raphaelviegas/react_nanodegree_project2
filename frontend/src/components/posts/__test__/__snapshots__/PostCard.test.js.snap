@@ -1,0 +1,1044 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostCard
+    onRemovePost={[Function]}
+    post={
+        Object {
+            "author": "thingtwo",
+            "body": "Everyone says so after all.",
+            "category": "react",
+            "commentCount": 2,
+            "deleted": false,
+            "id": "8xf0y6ziyjabvozdd253nd",
+            "timestamp": 1467166872634,
+            "title": "Udacity is the best place to learn React",
+            "voteScore": 10,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="card grey lighten-4"
+>
+        <div
+                className="card-content"
+        >
+                <span
+                        className="card-title truncate"
+                >
+                        Udacity is the best place to learn React
+                </span>
+                <span
+                        className="card-author"
+                >
+                        thingtwo
+                </span>
+                <p>
+                        Everyone says so after all.
+                </p>
+        </div>
+        <div
+                className="card-action valign-wrapper"
+        >
+                <Connect(VoteScore)
+                        id="8xf0y6ziyjabvozdd253nd"
+                        score={10}
+                        size={16}
+                        type="post"
+                />
+                <Link
+                        className="align-right"
+                        replace={false}
+                        to="/react/8xf0y6ziyjabvozdd253nd"
+                >
+                        Show Post
+                </Link>
+        </div>
+        <div
+                className="card-comments"
+        >
+                <span
+                        className="card-comments-number"
+                >
+                        2
+                </span>
+        </div>
+        <div
+                className="card-buttons"
+        >
+                <div
+                        className="card-button-edit"
+                        onClick={[Function]}
+                >
+                        <MaterialIcon
+                                icon="edit"
+                                size={14}
+                        />
+                </div>
+                <div
+                        className="card-button-delete"
+                        onClick={[Function]}
+                >
+                        <MaterialIcon
+                                icon="delete"
+                                size={14}
+                        />
+                </div>
+        </div>
+        <div
+                className="card-reveal "
+        >
+                <withRouter(Connect(EditPostForm))
+                        defaultBody="Everyone says so after all."
+                        defaultTitle="Udacity is the best place to learn React"
+                        id="8xf0y6ziyjabvozdd253nd"
+                        onPostCardFormSubmited={[Function]}
+                />
+                <div
+                        className="hide-edit"
+                        onClick={[Function]}
+                >
+                        <MaterialIcon
+                                color="#c3c3c3"
+                                icon="close"
+                        />
+                </div>
+        </div>
+</div>,
+      "className": "col s12 m6",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="card-content"
+>
+            <span
+                        className="card-title truncate"
+            >
+                        Udacity is the best place to learn React
+            </span>
+            <span
+                        className="card-author"
+            >
+                        thingtwo
+            </span>
+            <p>
+                        Everyone says so after all.
+            </p>
+</div>,
+          <div
+            className="card-action valign-wrapper"
+>
+            <Connect(VoteScore)
+                        id="8xf0y6ziyjabvozdd253nd"
+                        score={10}
+                        size={16}
+                        type="post"
+            />
+            <Link
+                        className="align-right"
+                        replace={false}
+                        to="/react/8xf0y6ziyjabvozdd253nd"
+            >
+                        Show Post
+            </Link>
+</div>,
+          <div
+            className="card-comments"
+>
+            <span
+                        className="card-comments-number"
+            >
+                        2
+            </span>
+</div>,
+          <div
+            className="card-buttons"
+>
+            <div
+                        className="card-button-edit"
+                        onClick={[Function]}
+            >
+                        <MaterialIcon
+                                    icon="edit"
+                                    size={14}
+                        />
+            </div>
+            <div
+                        className="card-button-delete"
+                        onClick={[Function]}
+            >
+                        <MaterialIcon
+                                    icon="delete"
+                                    size={14}
+                        />
+            </div>
+</div>,
+          <div
+            className="card-reveal "
+>
+            <withRouter(Connect(EditPostForm))
+                        defaultBody="Everyone says so after all."
+                        defaultTitle="Udacity is the best place to learn React"
+                        id="8xf0y6ziyjabvozdd253nd"
+                        onPostCardFormSubmited={[Function]}
+            />
+            <div
+                        className="hide-edit"
+                        onClick={[Function]}
+            >
+                        <MaterialIcon
+                                    color="#c3c3c3"
+                                    icon="close"
+                        />
+            </div>
+</div>,
+        ],
+        "className": "card grey lighten-4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="card-title truncate"
+>
+                Udacity is the best place to learn React
+</span>,
+              <span
+                className="card-author"
+>
+                thingtwo
+</span>,
+              <p>
+                Everyone says so after all.
+</p>,
+            ],
+            "className": "card-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Udacity is the best place to learn React",
+                "className": "card-title truncate",
+              },
+              "ref": null,
+              "rendered": "Udacity is the best place to learn React",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "thingtwo",
+                "className": "card-author",
+              },
+              "ref": null,
+              "rendered": "thingtwo",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Everyone says so after all.",
+              },
+              "ref": null,
+              "rendered": "Everyone says so after all.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(VoteScore)
+                id="8xf0y6ziyjabvozdd253nd"
+                score={10}
+                size={16}
+                type="post"
+/>,
+              <Link
+                className="align-right"
+                replace={false}
+                to="/react/8xf0y6ziyjabvozdd253nd"
+>
+                Show Post
+</Link>,
+            ],
+            "className": "card-action valign-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "id": "8xf0y6ziyjabvozdd253nd",
+                "score": 10,
+                "size": 16,
+                "type": "post",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Show Post",
+                "className": "align-right",
+                "replace": false,
+                "to": "/react/8xf0y6ziyjabvozdd253nd",
+              },
+              "ref": null,
+              "rendered": "Show Post",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="card-comments-number"
+>
+              2
+</span>,
+            "className": "card-comments",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2,
+              "className": "card-comments-number",
+            },
+            "ref": null,
+            "rendered": 2,
+            "type": "span",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="card-button-edit"
+                onClick={[Function]}
+>
+                <MaterialIcon
+                                icon="edit"
+                                size={14}
+                />
+</div>,
+              <div
+                className="card-button-delete"
+                onClick={[Function]}
+>
+                <MaterialIcon
+                                icon="delete"
+                                size={14}
+                />
+</div>,
+            ],
+            "className": "card-buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MaterialIcon
+                  icon="edit"
+                  size={14}
+/>,
+                "className": "card-button-edit",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": "edit",
+                  "size": 14,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MaterialIcon
+                  icon="delete"
+                  size={14}
+/>,
+                "className": "card-button-delete",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": "delete",
+                  "size": 14,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <withRouter(Connect(EditPostForm))
+                defaultBody="Everyone says so after all."
+                defaultTitle="Udacity is the best place to learn React"
+                id="8xf0y6ziyjabvozdd253nd"
+                onPostCardFormSubmited={[Function]}
+/>,
+              <div
+                className="hide-edit"
+                onClick={[Function]}
+>
+                <MaterialIcon
+                                color="#c3c3c3"
+                                icon="close"
+                />
+</div>,
+            ],
+            "className": "card-reveal ",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "defaultBody": "Everyone says so after all.",
+                "defaultTitle": "Udacity is the best place to learn React",
+                "id": "8xf0y6ziyjabvozdd253nd",
+                "onPostCardFormSubmited": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MaterialIcon
+                  color="#c3c3c3"
+                  icon="close"
+/>,
+                "className": "hide-edit",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#c3c3c3",
+                  "icon": "close",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="card grey lighten-4"
+>
+          <div
+                    className="card-content"
+          >
+                    <span
+                              className="card-title truncate"
+                    >
+                              Udacity is the best place to learn React
+                    </span>
+                    <span
+                              className="card-author"
+                    >
+                              thingtwo
+                    </span>
+                    <p>
+                              Everyone says so after all.
+                    </p>
+          </div>
+          <div
+                    className="card-action valign-wrapper"
+          >
+                    <Connect(VoteScore)
+                              id="8xf0y6ziyjabvozdd253nd"
+                              score={10}
+                              size={16}
+                              type="post"
+                    />
+                    <Link
+                              className="align-right"
+                              replace={false}
+                              to="/react/8xf0y6ziyjabvozdd253nd"
+                    >
+                              Show Post
+                    </Link>
+          </div>
+          <div
+                    className="card-comments"
+          >
+                    <span
+                              className="card-comments-number"
+                    >
+                              2
+                    </span>
+          </div>
+          <div
+                    className="card-buttons"
+          >
+                    <div
+                              className="card-button-edit"
+                              onClick={[Function]}
+                    >
+                              <MaterialIcon
+                                        icon="edit"
+                                        size={14}
+                              />
+                    </div>
+                    <div
+                              className="card-button-delete"
+                              onClick={[Function]}
+                    >
+                              <MaterialIcon
+                                        icon="delete"
+                                        size={14}
+                              />
+                    </div>
+          </div>
+          <div
+                    className="card-reveal "
+          >
+                    <withRouter(Connect(EditPostForm))
+                              defaultBody="Everyone says so after all."
+                              defaultTitle="Udacity is the best place to learn React"
+                              id="8xf0y6ziyjabvozdd253nd"
+                              onPostCardFormSubmited={[Function]}
+                    />
+                    <div
+                              className="hide-edit"
+                              onClick={[Function]}
+                    >
+                              <MaterialIcon
+                                        color="#c3c3c3"
+                                        icon="close"
+                              />
+                    </div>
+          </div>
+</div>,
+        "className": "col s12 m6",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="card-content"
+>
+              <span
+                            className="card-title truncate"
+              >
+                            Udacity is the best place to learn React
+              </span>
+              <span
+                            className="card-author"
+              >
+                            thingtwo
+              </span>
+              <p>
+                            Everyone says so after all.
+              </p>
+</div>,
+            <div
+              className="card-action valign-wrapper"
+>
+              <Connect(VoteScore)
+                            id="8xf0y6ziyjabvozdd253nd"
+                            score={10}
+                            size={16}
+                            type="post"
+              />
+              <Link
+                            className="align-right"
+                            replace={false}
+                            to="/react/8xf0y6ziyjabvozdd253nd"
+              >
+                            Show Post
+              </Link>
+</div>,
+            <div
+              className="card-comments"
+>
+              <span
+                            className="card-comments-number"
+              >
+                            2
+              </span>
+</div>,
+            <div
+              className="card-buttons"
+>
+              <div
+                            className="card-button-edit"
+                            onClick={[Function]}
+              >
+                            <MaterialIcon
+                                          icon="edit"
+                                          size={14}
+                            />
+              </div>
+              <div
+                            className="card-button-delete"
+                            onClick={[Function]}
+              >
+                            <MaterialIcon
+                                          icon="delete"
+                                          size={14}
+                            />
+              </div>
+</div>,
+            <div
+              className="card-reveal "
+>
+              <withRouter(Connect(EditPostForm))
+                            defaultBody="Everyone says so after all."
+                            defaultTitle="Udacity is the best place to learn React"
+                            id="8xf0y6ziyjabvozdd253nd"
+                            onPostCardFormSubmited={[Function]}
+              />
+              <div
+                            className="hide-edit"
+                            onClick={[Function]}
+              >
+                            <MaterialIcon
+                                          color="#c3c3c3"
+                                          icon="close"
+                            />
+              </div>
+</div>,
+          ],
+          "className": "card grey lighten-4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="card-title truncate"
+>
+                  Udacity is the best place to learn React
+</span>,
+                <span
+                  className="card-author"
+>
+                  thingtwo
+</span>,
+                <p>
+                  Everyone says so after all.
+</p>,
+              ],
+              "className": "card-content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Udacity is the best place to learn React",
+                  "className": "card-title truncate",
+                },
+                "ref": null,
+                "rendered": "Udacity is the best place to learn React",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "thingtwo",
+                  "className": "card-author",
+                },
+                "ref": null,
+                "rendered": "thingtwo",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Everyone says so after all.",
+                },
+                "ref": null,
+                "rendered": "Everyone says so after all.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Connect(VoteScore)
+                  id="8xf0y6ziyjabvozdd253nd"
+                  score={10}
+                  size={16}
+                  type="post"
+/>,
+                <Link
+                  className="align-right"
+                  replace={false}
+                  to="/react/8xf0y6ziyjabvozdd253nd"
+>
+                  Show Post
+</Link>,
+              ],
+              "className": "card-action valign-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "id": "8xf0y6ziyjabvozdd253nd",
+                  "score": 10,
+                  "size": 16,
+                  "type": "post",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Show Post",
+                  "className": "align-right",
+                  "replace": false,
+                  "to": "/react/8xf0y6ziyjabvozdd253nd",
+                },
+                "ref": null,
+                "rendered": "Show Post",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="card-comments-number"
+>
+                2
+</span>,
+              "className": "card-comments",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2,
+                "className": "card-comments-number",
+              },
+              "ref": null,
+              "rendered": 2,
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="card-button-edit"
+                  onClick={[Function]}
+>
+                  <MaterialIcon
+                                    icon="edit"
+                                    size={14}
+                  />
+</div>,
+                <div
+                  className="card-button-delete"
+                  onClick={[Function]}
+>
+                  <MaterialIcon
+                                    icon="delete"
+                                    size={14}
+                  />
+</div>,
+              ],
+              "className": "card-buttons",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <MaterialIcon
+                    icon="edit"
+                    size={14}
+/>,
+                  "className": "card-button-edit",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": "edit",
+                    "size": 14,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <MaterialIcon
+                    icon="delete"
+                    size={14}
+/>,
+                  "className": "card-button-delete",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": "delete",
+                    "size": 14,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <withRouter(Connect(EditPostForm))
+                  defaultBody="Everyone says so after all."
+                  defaultTitle="Udacity is the best place to learn React"
+                  id="8xf0y6ziyjabvozdd253nd"
+                  onPostCardFormSubmited={[Function]}
+/>,
+                <div
+                  className="hide-edit"
+                  onClick={[Function]}
+>
+                  <MaterialIcon
+                                    color="#c3c3c3"
+                                    icon="close"
+                  />
+</div>,
+              ],
+              "className": "card-reveal ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "defaultBody": "Everyone says so after all.",
+                  "defaultTitle": "Udacity is the best place to learn React",
+                  "id": "8xf0y6ziyjabvozdd253nd",
+                  "onPostCardFormSubmited": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <MaterialIcon
+                    color="#c3c3c3"
+                    icon="close"
+/>,
+                  "className": "hide-edit",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#c3c3c3",
+                    "icon": "close",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

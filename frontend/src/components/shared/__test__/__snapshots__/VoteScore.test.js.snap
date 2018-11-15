@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VoteScore /> <VoteScore  type='comments' /> Should render corretly on type Comment 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VoteScore
+    fetchVoteComment={[Function]}
+    id="894tuq4ut84ut8v4t8wun89g"
+    score={10}
+    size={20}
+    type="comment"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="vote-score-button vote-down"
+          onClick={[Function]}
+>
+          <MaterialIcon
+                    icon="thumb_down"
+                    size={20}
+          />
+</div>,
+        <span
+          className="vote-score-score"
+>
+          10
+</span>,
+        <div
+          className="vote-score-button vote-up"
+          onClick={[Function]}
+>
+          <MaterialIcon
+                    icon="thumb_up"
+                    size={20}
+          />
+</div>,
+      ],
+      "className": "vote-score",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="thumb_down"
+            size={20}
+/>,
+          "className": "vote-score-button vote-down",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "thumb_down",
+            "size": 20,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 10,
+          "className": "vote-score-score",
+        },
+        "ref": null,
+        "rendered": 10,
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="thumb_up"
+            size={20}
+/>,
+          "className": "vote-score-button vote-up",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "thumb_up",
+            "size": 20,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="vote-score-button vote-down"
+            onClick={[Function]}
+>
+            <MaterialIcon
+                        icon="thumb_down"
+                        size={20}
+            />
+</div>,
+          <span
+            className="vote-score-score"
+>
+            10
+</span>,
+          <div
+            className="vote-score-button vote-up"
+            onClick={[Function]}
+>
+            <MaterialIcon
+                        icon="thumb_up"
+                        size={20}
+            />
+</div>,
+        ],
+        "className": "vote-score",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="thumb_down"
+              size={20}
+/>,
+            "className": "vote-score-button vote-down",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "thumb_down",
+              "size": 20,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 10,
+            "className": "vote-score-score",
+          },
+          "ref": null,
+          "rendered": 10,
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="thumb_up"
+              size={20}
+/>,
+            "className": "vote-score-button vote-up",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "thumb_up",
+              "size": 20,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<VoteScore /> <VoteScore  type='posts' /> Should render corretly on type Post 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VoteScore
+    fetchVotePost={[Function]}
+    id="8xf0y6ziyjabvozdd253nd"
+    score={10}
+    size={30}
+    type="post"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="vote-score-button vote-down"
+          onClick={[Function]}
+>
+          <MaterialIcon
+                    icon="thumb_down"
+                    size={30}
+          />
+</div>,
+        <span
+          className="vote-score-score"
+>
+          10
+</span>,
+        <div
+          className="vote-score-button vote-up"
+          onClick={[Function]}
+>
+          <MaterialIcon
+                    icon="thumb_up"
+                    size={30}
+          />
+</div>,
+      ],
+      "className": "vote-score",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="thumb_down"
+            size={30}
+/>,
+          "className": "vote-score-button vote-down",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "thumb_down",
+            "size": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 10,
+          "className": "vote-score-score",
+        },
+        "ref": null,
+        "rendered": 10,
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="thumb_up"
+            size={30}
+/>,
+          "className": "vote-score-button vote-up",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "thumb_up",
+            "size": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="vote-score-button vote-down"
+            onClick={[Function]}
+>
+            <MaterialIcon
+                        icon="thumb_down"
+                        size={30}
+            />
+</div>,
+          <span
+            className="vote-score-score"
+>
+            10
+</span>,
+          <div
+            className="vote-score-button vote-up"
+            onClick={[Function]}
+>
+            <MaterialIcon
+                        icon="thumb_up"
+                        size={30}
+            />
+</div>,
+        ],
+        "className": "vote-score",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="thumb_down"
+              size={30}
+/>,
+            "className": "vote-score-button vote-down",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "thumb_down",
+              "size": 30,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 10,
+            "className": "vote-score-score",
+          },
+          "ref": null,
+          "rendered": 10,
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="thumb_up"
+              size={30}
+/>,
+            "className": "vote-score-button vote-up",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "thumb_up",
+              "size": 30,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

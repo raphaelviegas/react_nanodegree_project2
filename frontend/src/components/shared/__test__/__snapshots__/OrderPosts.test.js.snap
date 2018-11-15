@@ -1,0 +1,2953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderPosts /> Should add style display:block to the ul when the icon is clicked 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderPosts
+    orderPosts={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="dropdown-trigger2"
+          data-target="order_posts"
+>
+          <MaterialIcon
+                    icon="sort"
+                    size={30}
+          />
+</a>,
+        <ul
+          className="dropdown-content"
+          id="order_posts"
+>
+          <li>
+                    <span>
+                              Vote Score
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              Date
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              # Comments
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+</ul>,
+      ],
+      "className": "order-by",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="sort"
+            size={30}
+/>,
+          "className": "dropdown-trigger2",
+          "data-target": "order_posts",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "sort",
+            "size": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <span>
+                            Vote Score
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            Date
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            # Comments
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+          ],
+          "className": "dropdown-content",
+          "id": "order_posts",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Vote Score
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Vote Score",
+              },
+              "ref": null,
+              "rendered": "Vote Score",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Date
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                # Comments
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "# Comments",
+              },
+              "ref": null,
+              "rendered": "# Comments",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="dropdown-trigger2"
+            data-target="order_posts"
+>
+            <MaterialIcon
+                        icon="sort"
+                        size={30}
+            />
+</a>,
+          <ul
+            className="dropdown-content"
+            id="order_posts"
+>
+            <li>
+                        <span>
+                                    Vote Score
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    Date
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    # Comments
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+</ul>,
+        ],
+        "className": "order-by",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="sort"
+              size={30}
+/>,
+            "className": "dropdown-trigger2",
+            "data-target": "order_posts",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "sort",
+              "size": 30,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <span>
+                                Vote Score
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                Date
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                # Comments
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+            ],
+            "className": "dropdown-content",
+            "id": "order_posts",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Vote Score
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vote Score",
+                },
+                "ref": null,
+                "rendered": "Vote Score",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Date
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  # Comments
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "# Comments",
+                },
+                "ref": null,
+                "rendered": "# Comments",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<OrderPosts /> Should add style display:block to the ul when the icon is clicked 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderPosts
+    orderPosts={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="dropdown-trigger2"
+          data-target="order_posts"
+>
+          <MaterialIcon
+                    icon="sort"
+                    size={30}
+          />
+</a>,
+        <ul
+          className="dropdown-content"
+          id="order_posts"
+>
+          <li>
+                    <span>
+                              Vote Score
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              Date
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              # Comments
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+</ul>,
+      ],
+      "className": "order-by",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="sort"
+            size={30}
+/>,
+          "className": "dropdown-trigger2",
+          "data-target": "order_posts",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "sort",
+            "size": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <span>
+                            Vote Score
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            Date
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            # Comments
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+          ],
+          "className": "dropdown-content",
+          "id": "order_posts",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Vote Score
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Vote Score",
+              },
+              "ref": null,
+              "rendered": "Vote Score",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Date
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                # Comments
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "# Comments",
+              },
+              "ref": null,
+              "rendered": "# Comments",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="dropdown-trigger2"
+            data-target="order_posts"
+>
+            <MaterialIcon
+                        icon="sort"
+                        size={30}
+            />
+</a>,
+          <ul
+            className="dropdown-content"
+            id="order_posts"
+>
+            <li>
+                        <span>
+                                    Vote Score
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    Date
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    # Comments
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+</ul>,
+        ],
+        "className": "order-by",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="sort"
+              size={30}
+/>,
+            "className": "dropdown-trigger2",
+            "data-target": "order_posts",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "sort",
+              "size": 30,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <span>
+                                Vote Score
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                Date
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                # Comments
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+            ],
+            "className": "dropdown-content",
+            "id": "order_posts",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Vote Score
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vote Score",
+                },
+                "ref": null,
+                "rendered": "Vote Score",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Date
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  # Comments
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "# Comments",
+                },
+                "ref": null,
+                "rendered": "# Comments",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<OrderPosts /> Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderPosts
+    orderPosts={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="dropdown-trigger2"
+          data-target="order_posts"
+>
+          <MaterialIcon
+                    icon="sort"
+                    size={30}
+          />
+</a>,
+        <ul
+          className="dropdown-content"
+          id="order_posts"
+>
+          <li>
+                    <span>
+                              Vote Score
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              Date
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+          <li
+                    className="divider"
+                    tabIndex="-1"
+          />
+          <li>
+                    <span>
+                              # Comments
+                    </span>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Ascending
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="order-button"
+                              onClick={[Function]}
+                    >
+                              Descending
+                    </a>
+          </li>
+</ul>,
+      ],
+      "className": "order-by",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <MaterialIcon
+            icon="sort"
+            size={30}
+/>,
+          "className": "dropdown-trigger2",
+          "data-target": "order_posts",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "sort",
+            "size": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <span>
+                            Vote Score
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            Date
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+            <li
+              className="divider"
+              tabIndex="-1"
+/>,
+            <li>
+              <span>
+                            # Comments
+              </span>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Ascending
+              </a>
+</li>,
+            <li>
+              <a
+                            className="order-button"
+                            onClick={[Function]}
+              >
+                            Descending
+              </a>
+</li>,
+          ],
+          "className": "dropdown-content",
+          "id": "order_posts",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Vote Score
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Vote Score",
+              },
+              "ref": null,
+              "rendered": "Vote Score",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Date
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+              "tabIndex": "-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                # Comments
+</span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "# Comments",
+              },
+              "ref": null,
+              "rendered": "# Comments",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Ascending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ascending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ascending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="order-button"
+                onClick={[Function]}
+>
+                Descending
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Descending",
+                "className": "order-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Descending",
+              "type": "a",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="dropdown-trigger2"
+            data-target="order_posts"
+>
+            <MaterialIcon
+                        icon="sort"
+                        size={30}
+            />
+</a>,
+          <ul
+            className="dropdown-content"
+            id="order_posts"
+>
+            <li>
+                        <span>
+                                    Vote Score
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    Date
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+            <li
+                        className="divider"
+                        tabIndex="-1"
+            />
+            <li>
+                        <span>
+                                    # Comments
+                        </span>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Ascending
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    className="order-button"
+                                    onClick={[Function]}
+                        >
+                                    Descending
+                        </a>
+            </li>
+</ul>,
+        ],
+        "className": "order-by",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <MaterialIcon
+              icon="sort"
+              size={30}
+/>,
+            "className": "dropdown-trigger2",
+            "data-target": "order_posts",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "sort",
+              "size": 30,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <span>
+                                Vote Score
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                Date
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+              <li
+                className="divider"
+                tabIndex="-1"
+/>,
+              <li>
+                <span>
+                                # Comments
+                </span>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Ascending
+                </a>
+</li>,
+              <li>
+                <a
+                                className="order-button"
+                                onClick={[Function]}
+                >
+                                Descending
+                </a>
+</li>,
+            ],
+            "className": "dropdown-content",
+            "id": "order_posts",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Vote Score
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vote Score",
+                },
+                "ref": null,
+                "rendered": "Vote Score",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Date
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+                "tabIndex": "-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  # Comments
+</span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "# Comments",
+                },
+                "ref": null,
+                "rendered": "# Comments",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Ascending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ascending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ascending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="order-button"
+                  onClick={[Function]}
+>
+                  Descending
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Descending",
+                  "className": "order-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Descending",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

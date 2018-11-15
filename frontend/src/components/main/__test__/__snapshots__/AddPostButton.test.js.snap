@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddPostButton /> Should render correctly 1`] = `
+<div>
+  <div
+    className="fixed-action-btn"
+  >
+    <a
+      className="btn-floating btn-large cyan darken-4"
+      href="/addPost"
+      onClick={[Function]}
+    >
+      <i
+        className="material-icons md-24 md-light "
+        style={
+          Object {
+            "color": "",
+            "fontSize": "md-24",
+          }
+        }
+      >
+        playlist_add
+      </i>
+    </a>
+  </div>
+</div>
+`;
